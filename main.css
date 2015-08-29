@@ -7,9 +7,57 @@ h1
 {
 	text-align: center;
 	font-size: 40px;
+	position: relative;
+	right: 20%;
+	left: 20%;
+	height: 20%;
+	width:60%;
+	top: 10%;
 }
 html
 {
 	background-image: url("back.png") ;
 	background-size: cover;
+}
+#formdiv
+{
+	position: relative;
+	top: 5%;
+	right: 20%;
+	left: 20%;
+	height: 60%;
+	width:60%;
+	background-color: gray;
+}
+span
+{
+	text-align: center;
+	position: relative;
+	height: 20%;
+	width: 20%;
+	left:15%;
+}
+#name
+{
+	position: relative;
+	height: 20%;
+	width: 80%;
+	top:10%;
+	left:35%;
+}
+#venue
+{
+	position: relative;
+	height: 20%;
+	width: 80%;
+	top:10%;
+	left:35%;
+}
+#club
+{
+	position: relative;
+	height: 20%;
+	width: 80%;
+	top:10%;
+	left:35%;
 }
