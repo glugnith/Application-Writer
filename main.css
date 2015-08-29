@@ -1,0 +1,15 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+h1
+{
+	text-align: center;
+	font-size: 40px;
+}
+html
+{
+	background-image: url("back.png") ;
+	background-size: cover;
+}
