@@ -5,6 +5,9 @@
 
 *
 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
 }
@@ -53,6 +56,10 @@ span
 	top:5%;
 	left:35%;
 }
+input {
+  border: 1px solid black;
+  padding-left: 5px;
+}
 #name input
 {
 	height: 40px;
@@ -82,8 +89,6 @@ span
 	height: 40px;
 }
 
-
-
 #submit
 {
 	position: relative;
@@ -97,4 +102,12 @@ span
 	border-radius:  50px;
 	width:50px;
 	height: 50px;
+  border: 2px solid black;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-left: 0;
+}
+#submit input:hover {
+  box-shadow: 0px 0px 2px 2px white;
 }
