@@ -7,42 +7,43 @@
 		<div id="main">
 			<h1>Application Writer</h1>
 			<div id="formdiv">
-				<form id="mainform">
-					
+				<form id="mainform" action="javaScript:funcValidate()">
+
 					<div id="name">
 					<br>
-					<input type="text" placeholder="Name">
+					<input type="text" placeholder="Name" id="inputUser">
 					</div>
 					<div id="venue">
-					
+
 					<br>
-					<input type="text" placeholder="Venue">
+					<input type="text" placeholder="Venue" id="inputVenue">
 					</div>
 					<div id="club">
-					
+
 					<br>
-					<input type="text" placeholder="Club">
+					<input type="text" placeholder="Club" id="inputClub">
 					</div>
 					<div id="purpose">
-					
+
 					<br>
-					<input type="text" placeholder="Purpose">
+					<input type="text" placeholder="Purpose" id="inputPurpose">
 					</div>
 					<div id="time">
-					
+
 					<br>
-					<input type="text" placeholder="DD/MM/YYYY">
+					<input type="text" placeholder="DD/MM/YYYY" id="inputDate">
 					</div>
 					<div id="date">
-					
+
 					<br>
-					<input type="text" placeholder="HH:MM:SS">
+					<input type="text" placeholder="HH:MM:SS" id="inputTime">
 					</div>
-					<div id="submit" >
-						<input type="submit" value="Go">
+					<div id="submit">
+						<input type="submit" value="Go" id="submitForm">
 					</div>
-					
+
 				</form>
 			</div>
 		</div>
+		<script src="validate.js"></script>
 	</body>
